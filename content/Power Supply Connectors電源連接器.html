@@ -1,0 +1,298 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1> cp2020 40923102</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0"> cp2020 40923102</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='Hint.html'>Hint</a><ul class='dropdown'><li><a href='gitlab-ci.yml.html'>gitlab-ci.yml</a></li></ul><li class='has-children'><a href='CMSiMDE.html'>CMSiMDE</a><ul class='dropdown'><li class='has-children'><a href='CMSiMDE 程式架構.html'>CMSiMDE 程式架構</a><ul class='dropdown'><li><a href='為何需要網際內容管理.html'>為何需要網際內容管理</a><li><a href='如何建立 CMSiMDE 子模組.html'>如何建立 CMSiMDE 子模組</a><li><a href='為何需要以子模組的設計.html'>為何需要以子模組的設計</a><li><a href='兩種不同的 git clone.html'>兩種不同的 git clone</a><li><a href='假如 CMSiMDE 不設為子模組.html'>假如 CMSiMDE 不設為子模組</a><li><a href='為何需要有動態網頁與靜態網頁.html'>為何需要有動態網頁與靜態網頁</a><li><a href='CMSiMDE 有甚麼使用上的限制嗎比方說能夠使用那些特殊符號, 為什麼不能使用分號, 以及所謂的標題有沒有最多幾個字元的限制, 另外就是假如標題過長, 會發生甚麼狀況與後果.html'>CMSiMDE 有甚麼使用上的限制嗎比方說能夠使用那些特殊符號, 為什麼不能使用分號, 以及所謂的標題有沒有最多幾個字元的限制, 另外就是假如標題過長, 會發生甚麼狀況與後果</a></li></li></ul></ul><li class='has-children'><a href='HW1.html'>HW1</a><ul class='dropdown'><li><a href='Power Supplies電源.html'>Power Supplies電源</a><li class='has-children'><a href='Power Supply Connectors電源連接器.html'>Power Supply Connectors電源連接器</a><ul class='dropdown'><li><a href='Remove A Power Supply.html'>Remove A Power Supply</a></li></ul><li><a href='Replace A Power Supply更換電源.html'>Replace A Power Supply更換電源</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">Power Supplies電源 << <a href='Power Supplies電源.html'>Previous</a> <a href='Remove A Power Supply.html'>Next</a> >> Remove A Power Supply<br /><h1>Power Supply Connectors電源連接器</h1>
+</div>
+<div class="activityhead"></div>
+<div class="activityhead"><span><span style="color: #ff0000;">Identify power supply connectors.</span></span></div>
+<div class="activityhead"><span><span style="color: #ff0000;">識別電源連接器。</span></span></div>
+<div class="activityhead"></div>
+<div class="activityhead"></div>
+<div class="activityhead"></div>
+<div class="activityhead">
+<p id="N1068F" lang="">ATX 12V 2.x power supplies connect to the motherboard by way of a 24-pin cable + 4-pin/8-pin for CPU and 6- or 8-pin for PCIe video.</p>
+<p lang=""><span>ATX 12V 2.x電源通過24針電纜+ 4針/ 8針（用於CPU）和6或8針（用於PCIe視頻）連接到主板。</span></p>
+<p id="N10692" lang="">The purpose of a "dual-rail" PSU is to separate and limit the current through each wire to avoid overheating.</p>
+<p lang=""><span>“雙軌” PSU的目的是分離並限制通過每條電線的電流，以避免過熱。</span></p>
+<p id="N10695" lang="">Originally, the ATX 1.x standard required 20 pins to provide the mainboard (motherboard) power connection. ATX version 2.x expanded this to 24 pins for a standard ATX12V power supply. Many power supplies will provide a 20+4 pin cable, so that they are backward compatible with older systems.</p>
+<p lang=""><span>最初，ATX 1.x標準需要20個引腳才能提供主板（主板）電源連接。</span><span>ATX版本2.x將其擴展為24引腳，用於標準ATX12V電源。</span><span>許多電源將提供20 + 4針電纜，以便它們與較早的系統向後兼容。</span></p>
+<p id="N10698" lang="">With the higher voltage requirements of the Pentium 4 and onward, the ATX version 2.x standard made this a 24-pin cable +4 pin (original mini-ATX or P4 connector) or an EPS12 8-pin connector. The ATX12V provides a four-wire square connector for additional motherboard power. ESP12V provides an eight-wire connector (often split into two four-wire connectors for backward compatibility) for additional CPU power. Finally, there is the AUX connector, a six-wire connector to provide older systems with extra power to the motherboard.</p>
+<p lang=""><span>隨著奔騰4及更高版本對電壓的更高要求，ATX 2.x版標準將其設置為24針電纜+4針（原始的mini-ATX或P4連接器）或EPS12 8針連接器。</span><span>ATX12V提供一個四線方形連接器，用於增加主板電源。</span><span>ESP12V提供了一個八線連接器（為了便於向後兼容，通常分為兩個四線連接器），以提供更多的CPU電源。</span><span>最後，還有AUX連接器，這是六線連接器，可為較舊的系統提供額外的電源給主板。</span></p>
+<p id="N1069B" lang="">ATX12V version 2.x eliminated the 3.3V and 5.5V rails in favor of 12V rails due to the nature of CPU and PCIe power requirements. The ATX standards from version 2.x on have all developed to improve power delivery. The 12V<span> </span><a aria-describedby="N1069F" class="extra" id=""></a>dual-rail<span> </span>PSU is designed to limit over voltage situations and protect against overheating.</p>
+<p lang=""><span>由於CPU和PCIe電源要求的特性，ATX12V 2.x版取消了3.3V和5.5V供電軌，轉而採用12V供電軌。從2.x版開始的ATX標準都已經開發出來，以改善功率輸出。12V<span> </span></span><a aria-describedby="N1069F" class="extra" id=""></a><span><span>雙軌</span></span><span><span><span> </span>PSU旨在限製過壓情況並防止過熱。</span></span></p>
+<table align="center" cellspacing="0" class="wbtable" lang="">
+<thead>
+<tr>
+<th lang="">Power Cable</th>
+<th lang="">Application</th>
+<th lang="">Pinouts/Voltage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td lang="">
+<div class="image shouldbeleft"><img alt="Copyright: melastmohican / 123RF Stock Photo (http://www.123rf.com/profile_melastmohican)" class="popimg" id="_i_0" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH04/webcontent/PCH04/image11.jpeg" title="Copyright: melastmohican / 123RF Stock Photo (http://www.123rf.com/profile_melastmohican)"/></div>
+</td>
+<td lang="">IDE/EIDE PATA devices (HDD/ODD); Case Fans; PCI/PCIe Expansion cards requiring external power (i.e., USB, Firewire, Thunderbolt)</td>
+<td lang="">Red (+5V), Yellow (+12V), Black (G), Black (G)</td>
+</tr>
+<tr class="e">
+<td lang="">
+<div class="image shouldbeleft"><img alt="Copyright: stargatechris / 123RF Stock Photo (http://www.123rf.com/profile_stargatechris)" class="popimg" id="_i_1" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH04/webcontent/PCH04/image12.jpeg" title="Copyright: stargatechris / 123RF Stock Photo (http://www.123rf.com/profile_stargatechris)"/></div>
+</td>
+<td lang="">SATA Devices (HDD/ODD); PCI/PCIe Expansion cards requiring external power (i.e., USB, Firewire, Thunderbolt)</td>
+<td lang="">15-pin (+3.3 V, +5V, +12V)</td>
+</tr>
+<tr>
+<td lang="">
+<div class="image shouldbeleft"><img alt="Copyright: jrtb / 123RF Stock Photo (http://www.123rf.com/profile_jrtb)" class="popimg" id="_i_2" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH04/webcontent/PCH04/image13.jpeg" title="Copyright: jrtb / 123RF Stock Photo (http://www.123rf.com/profile_jrtb)"/></div>
+</td>
+<td lang="">PCI Express Video Cards – 6 or 8 pins</td>
+<td lang="">
+<p id="N106CF" lang="">6-pin (+12 v) (ATX12V Vers. 2.1)</p>
+<p id="N106D1" lang="">8-pin (+12 v) (ATX12V Vers. 2.2)</p>
+<p lang=""></p>
+<p lang=""></p>
+<p lang=""></p>
+<p id="N106D3" lang="">or later</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="imagewrap"><span class="image"><img alt="Photograph of wires and connectors that leave the power supply and connect it to the motherboard and peripherals." class="popimg" id="_i_3" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH04/webcontent/PCH04/image10.png" title="Photograph of wires and connectors that leave the power supply and connect it to the motherboard and peripherals."/></span></div>
+<div class="imagewrap">
+<p lang="">Power supply wires. Photo used under CC-BY-NC license from<span> </span><a href="https://flic.kr/p/5qUAfP" id="_i_4" lang="" target="_blank">Jeff Coleman</a>.</p>
+<p lang=""><span>電源線。照片由</span><a href="https://flic.kr/p/5qUAfP" id="_i_4" lang="" target="_blank"><span><span>Jeff Coleman</span></span></a><span><span>根據CC-BY-NC許可使用</span><span>。</span></span></p>
+<p lang=""></p>
+<table align="center" cellspacing="0" class="wbtable" lang="">
+<thead>
+<tr>
+<th lang=""><span>電源線</span></th>
+<th lang=""><span>應用</span></th>
+<th lang=""><span>引腳排列/電壓</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td lang="">
+<div class="image shouldbeleft"><img alt="版權：melastmohican / 123RF股票圖片（http://www.123rf.com/profile_melastmohican）" class="popimg" id="_i_0" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH04/webcontent/PCH04/image11.jpeg" title="版權：melastmohican / 123RF股票圖片（http://www.123rf.com/profile_melastmohican）"/></div>
+</td>
+<td lang=""><span>IDE / EIDE PATA設備（HDD / ODD）;<span> </span>機箱風扇；需要外部電源（例如USB，Firewire，Thunderbolt）的PCI / PCIe擴展卡</span></td>
+<td lang=""><span>紅色（+ 5V），黃色（+ 12V），黑色（G），黑色（G）</span></td>
+</tr>
+<tr class="e">
+<td lang="">
+<div class="image shouldbeleft"><img alt="版權：stargatechris / 123RF股票圖片（http://www.123rf.com/profile_stargatechris）" class="popimg" id="_i_1" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH04/webcontent/PCH04/image12.jpeg" title="版權：stargatechris / 123RF股票圖片（http://www.123rf.com/profile_stargatechris）"/></div>
+</td>
+<td lang=""><span>SATA設備（HDD / ODD）;<span> </span>需要外部電源（例如USB，Firewire，Thunderbolt）的PCI / PCIe擴展卡</span></td>
+<td lang=""><span>15針（+3.3 V，+ 5V，+ 12V）</span></td>
+</tr>
+<tr>
+<td lang="">
+<div class="image shouldbeleft"><img alt="版權：jrtb / 123RF股票圖片（http://www.123rf.com/profile_jrtb）" class="popimg" id="_i_2" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH04/webcontent/PCH04/image13.jpeg" title="版權：jrtb / 123RF股票圖片（http://www.123rf.com/profile_jrtb）"/></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p lang=""></p>
+<p id="N106E6" lang="">In addition to the motherboard needing power to function, peripherals need power to function, too. The power supply provides additional connectors for peripherals used throughout the computer system. The oldest style connector is the Molex connector and is used for PATA hard drives, PATA CD/DVD drives, and extra cooling fans. The Molex is a four-pin connector that is usually one of the largest connectors. A mini-Molex or Berg connector is a four-pin connector that is rather small and only used for floppy disk drives, specifically the 3.5-inch variant of drive. SATA devices use SATA power cables, which are 15-pin L-shaped connectors. PCIe power connectors (peripheral component interconnect express) are six-pin or eight-pin connectors that are used to provide additional power to PCIe video cards at 12 VDC. Finally, if you run out of connectors of a certain type, there are conversion cables to make a Molex into SATA, or Molex into PCIe. Additionally, there exist Y-connectors for Molex that allow a single Molex to be split into two Molex connectors. As you remember, power supplies convert AC to DC power to provide power to the devices. These connectors have either +/-3.3 VDC, +/- 5 VDC, or +/- 12 VDC.</p>
+<p lang=""><span>除了主板需要電源才能工作之外，外圍設備也需要電源才能工作。</span><span>電源為整個計算機系統中使用的外圍設備提供了附加的連接器。</span><span>最古老的連接器是Molex連接器，用於PATA硬盤驅動器，PATA CD / DVD驅動器和額外的冷卻風扇。</span><span>Molex是四針連接器，通常是最大的連接器之一。</span><span>微型Molex或Berg連接器是一個四針連接器，它很小，僅用於軟盤驅動器，特別是3.5英寸驅動器。</span><span>SATA設備使用SATA電源線，該電源線是15針L形連接器。</span><span>PCIe電源連接器（外圍組件互連Express）是六針或八針連接器，用於為12 VDC的PCIe視頻卡提供額外的電源。</span><span>最後，</span><span>如果某種類型的連接器用完了，則可以使用轉換電纜將Molex製成SATA，或將Molex製成PCIe。</span><span>此外，還存在用於Molex的Y型連接器，該連接器可將單個Molex分為兩個Molex連接器。</span><span>您還記得，電源將交流電轉換為直流電，以便為設備供電。</span><span>這些連接器具有+/- 3.3 VDC，+ /-5 VDC或+/- 12 VDC。</span></p>
+<p lang=""></p>
+<div>
+<div class="youtube" id="uwrap__i_5"><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" enablejsapi="1" frameborder="0" height="360" id="_i_5" src="https://www.youtube.com/embed/mnWcYFbln84?enablejsapi=1&amp;rel=0&amp;vq=large" width="640"></iframe></div>
+</div>
+<div>
+<div class="youtube" id="uwrap__i_6"><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" enablejsapi="1" frameborder="0" height="360" id="_i_6" src="https://www.youtube.com/embed/QPopjM5wu9c?enablejsapi=1&amp;rel=0&amp;vq=large" width="640"></iframe></div>
+</div>
+</div>
+<div class="activityhead"></div>
+<div class="activityhead"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br />Power Supplies電源 << <a href='Power Supplies電源.html'>Previous</a> <a href='Remove A Power Supply.html'>Next</a> >> Remove A Power Supply</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        
