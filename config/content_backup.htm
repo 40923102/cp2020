@@ -284,7 +284,7 @@ variables:
 </div>
 </div>
 </div>
-<h3 contenteditable="true" data-element="title">Remove A Power Supply</h3>
+<pre>Remove A Power Supply</pre>
 <p lang=""><span style="color: #ff0000;">Disassemble and reassemble computers in the most common case designs.</span></p>
 <p lang=""><span style="color: #ff0000;"><span>在最常見的案例設計中，拆卸並重新組裝計算機。</span></span></p>
 <p lang=""><span style="color: #ff0000;">Recommend and install an appropriate power supply given specific hardware to be powered.</span></p>
@@ -293,11 +293,6 @@ variables:
 <p lang=""><span style="color: #ff0000;"><span>測試電源以確定功能正常。</span></span></p>
 <p lang=""><span></span></p>
 <p lang=""><span></span></p>
-</div>
-</div>
-</div>
-</div>
-</div>
 <p id="N106B5" lang="">To remove the power supply, first you must power down the computer. Next, you want to verify the power switch is in the off position, and disconnect the power cord from the wall and from the machine. You can then open the case by removing the screens, and then disconnect all power supply cables from all the devices in the computer. Next, you will remove all the screws holding the PSU in place and lift or slide out the power supply from the workstation.</p>
 <p lang=""><span>要卸下電源，首先必須關閉計算機電源。</span><span>接下來，您要確認電源開關處於關閉位置，並從牆壁和機器上拔下電源線。</span><span>然後，您可以通過卸下屏幕來打開機箱，然後從計算機中的所有設備上斷開所有電源電纜的連接。</span><span>接下來，您將卸下所有將PSU固定到位的螺釘，並從工作站上提起或滑出電源。</span></p>
 <p id="N106B8" lang="">To see more on computer disassembly and reassembly,<span> </span><a href="http://www.authorstream.com/Presentation/ms.hersh-1220420-computer-disassembly-reassembly/" id="_i_0" lang="" target="_blank">view this slide deck</a>.</p>
@@ -307,8 +302,9 @@ variables:
 <p lang=""><span>供電單元。照片由</span><a href="https://flic.kr/p/55Enp" id="_i_2" lang="" target="_blank"><span><span>Jordan Dawe</span></span></a><span><span>根據CC-BY-NC-ND許可使用</span><span>。</span></span></p>
 </div>
 <div class="section" id="replace_supplies">
-<div class="sectionContain">
-<h2 contenteditable="true" lang=""><span title="Quick scroll up">Replace A Power Supply更換電源</span></h2>
+<div class="sectionContain"></div>
+</div>
+<h2>Replace A Power Supply更換電源</h2>
 <p id="N106D8" lang="">To replace a PSU, you would need to verify the proper wattage for the new power supply and slide the power supply into the case. You then need to screw the power supply into place and connect all the power supply cables to the various internal components. Next, you should check the voltage setting and make sure it is set to 110 VAC for North America or 230 VAC for European/Asian countries. Connect your power cord to the power supply and turn on the computer. If the computer works properly, you can then close the case and secure the enclosure with screws.</p>
 <p lang=""><span>要更換PSU，您需要驗證新電源的合適功率，並將電源滑入機箱。</span><span>然後，您需要將電源固定到位，並將所有電源電纜連接到各個內部組件。</span><span>接下來，您應該檢查電壓設置，並確保將其設置為北美的110 VAC或歐洲/亞洲國家的230 VAC。</span><span>將電源線連接到電源，然後打開計算機。</span><span>如果計算機正常運行，則可以合上機箱並用螺釘固定機箱。</span></p>
 <p id="N106DB" lang="">In the lab exercise below, you should remove and replace the PC power supply. Be sure to start with the right tools and always use safety precautions, especially when handling the power supply. For the purposes of this lab exercise, you can assume that ESD precautions are in place.</p>
@@ -345,8 +341,66 @@ variables:
 </div>
 </div>
 <p><span></span></p>
-<p>Network Defined by Geography</p>
+<h2>Network Defined by Geography地理位置定義的網絡</h2>
 <p><span style="color: #ff0000;">Identify various types of networks, topologies, and network security issues.</span></p>
+<p><span style="color: #ff0000;"><span>確定各種類型的網絡，拓撲和網絡安全問題。</span></span></p>
+<div class="section" id="N10697">
+<div class="sectionContain">
+<pre>Overview</pre><pre><strong>總覽</strong></pre>
+<p id="N1069E" lang="">In this module, we are going to cover the various types of networks, including local area networks, wide area networks, personal area networks, and metropolitan area networks. Next, we will cover the various network relationships, such as client/server and peer-to-peer, and focus on the types of resources our networks use. Finally, we will talk about the topologies of our networks, such as the bus, the ring, the star, the full mesh, and hybrid network topologies.</p>
+<p lang=""><span>在本模塊中，我們將涵蓋各種類型的網絡，包括局域網，廣域網，個人局域網和城域網。</span><span>接下來，我們將介紹各種網絡關係，例如客戶端/服務器和對等網絡，並集中討論網絡使用的資源類型。</span><span>最後，我們將討論網絡的拓撲，例如總線，環形，星形，全網格和混合網絡拓撲。</span></p>
+<div class="section" id="N106A3">
+<div class="sectionContain">
+<p><span title="Quick scroll up">Network Defined By Geography</span></p>
+<p><span title="快速向上滾動"><span>地理定義的網絡</span></span></p>
+<p id="N106AA" lang="">Networks are defined by the geography they cover. We start with the area around a single person, with this area being termed the personal area network (PAN). Next, we expand outward to the local area network (LAN), which can contain an entire office floor or building. Moving outward again, we have the metropolitan area network, which covers the area across the city by connecting multiple LANs together. Finally, we have the wide area network (WAN). This is the largest network we define by geography and it can go across the country or even across the world. A great example of a WAN is the Internet, since it connects many networks together and stretches across the globe.</p>
+<p lang=""><span>網絡由它們所覆蓋的地理位置定義。</span><span>我們從一個人周圍的區域開始，將該區域稱為個人區域網絡（PAN）。</span><span>接下來，我們向外擴展到局域網（LAN），該局域網可以包含整個辦公樓層或建築物。</span><span>再次向外移動，我們有了城域網，該城域網通過將多個LAN連接在一起而覆蓋了整個城市。</span><span>最後，我們有了廣域網（WAN）。</span><span>這是我們按地理位置定義的最大網絡，它可以遍及全國，甚至遍及全球。</span></p>
+<p lang=""><span>WAN就是一個很好的例子，因為Internet將許多網絡連接在一起並遍及全球。</span></p>
+<div class="imagewrap"><span class="image"><img class="popimg" id="_i_0" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH09/webcontent/PCH09/image1.png"/></span>
+<p id="N106B1" lang="">Geographic networks. Image used under CC-BY license from<span> </span><a href="http://www.jasondion.com/" id="_i_1" lang="" target="_blank">Jason Dion</a>.</p>
+</div>
+<div actguid="d87f2e930a0001dc06320fcf17d7e89b" class="asx" inlineparams="inlineClient=%2Fsuperactivity%2Fassessment2%2FInlineAssessmentClient.swf&amp;activityMode=delivery&amp;activityContextGUID=d87f2e930a0001dc06320fcf17d7e89b&amp;userGUID=40923102%40gm.nfu.edu.tw&amp;activityService=%2Fjcourse%2Fa2%2Frest&amp;webContentPath=%2Frepository%2Fwebcontent%2Fd826575d0a0001dc3e9f244fa018c560%2F&amp;logService=%2Flog%2Fserver&amp;">
+<div class="activitywrap purpose learnbydoing flash" id="dpch09_lbd01">
+<div class="activityhead">
+<div class="purposeType purposelearnbydoing" title=""><span class="scnReader">learn by doing</span></div>
+<div class="purposeType purposelearnbydoing" title=""><span class="scnReader"><span>地理網絡。圖片由</span><a href="http://www.jasondion.com/" id="_i_1" lang="" target="_blank"><span><span>Jason Dion</span></span></a><span><span>根據CC-BY許可使用</span><span>。</span></span></span></div>
+<div class="activityinfo"></div>
+</div>
+<div class="actContain"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="N106DA">
+<div class="sectionContain"></div>
+</div><pre>Personal Area Network</pre><pre><strong>個人區域網</strong></pre>
+<p id="N106E1" lang="">A PAN has a very small range limited to just a few meters. If you stretch your hands out at your sides and spin around in a circle, this is the physical range of most PANs. Bluetooth is one of the main things we use to create a PAN, although USB and infrared can also be used for these networks. Bluetooth has a range between one meter and 100 meters depending on which class of Bluetooth you are using, but most common Bluetooth devices are class two devices limited to 10 meters. Some good examples of PANs are the connection between a USB hard drive and a laptop, or a Bluetooth cellphone connecting to your car stereo system wirelessly.</p>
+<p lang=""><span>PAN的範圍很小，只有幾米。</span><span>如果您將雙手伸向兩側並轉一圈，則這是大多數PAN的物理範圍。</span><span>藍牙是我們用於創建PAN的主要內容之一，儘管USB和紅外也可以用於這些網絡。</span><span>藍牙的範圍在1米至100米之間，具體取決於您使用的藍牙類別，但是大多數常見的藍牙設備是限於10米的第二類設備。</span><span>PAN的一些很好的例子是USB硬盤驅動器和筆記本電腦之間的連接，或者是無線連接到汽車立體聲系統的藍牙手機。</span></p>
+<div actguid="d87f2e940a0001dc0c2b3aff3b198797" class="asx" inlineparams="inlineClient=%2Fsuperactivity%2Fassessment2%2FInlineAssessmentClient.swf&amp;activityMode=delivery&amp;activityContextGUID=d87f2e940a0001dc0c2b3aff3b198797&amp;userGUID=40923102%40gm.nfu.edu.tw&amp;activityService=%2Fjcourse%2Fa2%2Frest&amp;webContentPath=%2Frepository%2Fwebcontent%2Fd826575d0a0001dc3e9f244fa018c560%2F&amp;logService=%2Flog%2Fserver&amp;">
+<div class="activitywrap purpose learnbydoing flash" id="dpch09_lbd02">
+<div class="activityhead">
+<div class="purposeType purposelearnbydoing" title=""><span class="scnReader"></span></div>
+</div>
+<div class="actContain"></div>
+</div>
+</div>
+<div class="section" id="lan">
+<div class="sectionContain"></div>
+</div><pre><strong>Local Area Network</strong></pre><h2>局域網</h2>
+<p id="N1070D" lang="">The next type of network defined by geography is the LAN, which stands for local area network. The local area network is comprised of several devices that allow computers to connect to each other within a small geographic area. A LAN is, at its most basic, a connection of several workstations together using a hub, switch, or wireless access point. LANs have a limited distance associated with them, with each network segment usually limited to 100 meters or less. Generally, a LAN is used to network the floor of an office, or possibly the entire office building in smaller networks. LANs are generally connected in either a wired or wireless manner. If wired, they are connected using unshielded twisted pair cable using the Ethernet (IEEE 802.3) standard; if wireless, they are connected using Wi-Fi radio signal (IEEE 802.11) standards.</p>
+<p lang=""><span>地理定義的下一種網絡類型是LAN，它代表局域網。</span><span>局域網由幾個設備組成，這些設備使計算機可以在一個較小的地理區域內相互連接。</span><span>局域網最基本的是使用集線器，交換機或無線訪問點將多個工作站連接在一起。</span><span>局域網的距離有限，每個網段通常限制在100米或更短。</span><span>通常，LAN用於將辦公室地板或較小網絡中的整個辦公樓聯網。</span><span>LAN通常以有線或無線方式連接。</span><span>如果已連接，則使用符合以太網（IEEE 802.3）標準的非屏蔽雙絞線電纜進行連接；</span><span>如果為無線，則它們使用Wi-Fi無線電信號（IEEE 802.11）標准進行連接。</span></p>
+<div class="imagewrap"><span class="image"><img class="popimg" id="_i_2" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH09/webcontent/PCH09/image2.png"/></span>
+<p id="N10714" lang="">Simple LAN diagram. Public domain image obtained from<span> </span><a href="https://commons.wikimedia.org/wiki/File:Gwiazda.jpeg#/media/File:Gwiazda.jpeg" id="_i_3" lang="" target="_blank">Wierzbadark</a>.</p>
+</div>
+<div class="imagewrap"><span class="image"><img class="popimg" id="_i_4" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH09/webcontent/PCH09/image3.jpeg"/></span>
+<p id="N10720" lang="">Caption. Complex LAN diagram. Used with permission. Copyright:<span> </span><a href="http://www.123rf.com/profile_ohmega1982" id="_i_5" lang="" target="_blank">ohmega 1982/123 RF Stock Photo</a>.</p>
+<p lang=""><span>標題。複雜的局域網圖。經許可使用。版權所有：</span><a href="http://www.123rf.com/profile_ohmega1982" id="_i_5" lang="" target="_blank"><span><span>ohmega 1982/123 RF Stock Photo</span></span></a><span><span>。</span></span></p>
+</div>
+</div>
+</div>
 <p><span></span></p>
 <p><span></span></p>
 <p><span></span></p>
+</div>
+</div>
+</div>
